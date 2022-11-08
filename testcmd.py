@@ -4,7 +4,7 @@ from requests.exceptions import HTTPError
 
 def jsontest (url='https://httpbin.org/get'):
     try:
-        print(url)
+        print("jsontest", url)
         response = requests.get(url)
         #response.raise_for_status()
         # access JSOn content
